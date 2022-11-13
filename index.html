@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+<script>
+  $(document).ready(function(){
+    $("#flip").click(function(){
+      $("#panel").slideToggle("slow");
+    });
+  });
+</script>
+<style>
+  #panel,#flip{
+    padding:5px;
+    text-align:center;
+    background-color:antiquewhite;
+    border:solid 1px #c3c3c3;
+  }
+
+  #panel{
+    padding:50px;
+    display:none;
+  }
+  .input-icons i {
+      position: absolute;
+  }
+    
+  .input-icons {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+    
+  .icon {
+      padding: 10px;
+      min-width: 40px;
+  }
+    
+  .input-field {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+  }
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">TANYA SRIVASTAVA</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#education">EDUCATION QUALIFICATION</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+      </ul>
+    </div>
+
+</nav>
+
+<div class="container">
+  <h1 id="intro">Designer, Frontend Developer:)</h1>
+  <h2 id="intro">Just in love to design and codes things that i love to!!</h2>
+  <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZxiY9Kg7bQ98-hrX_CPbO5euTLnJ3l5JpBQ&usqp=CAU"></center>
+</div>
+
+
+
+
+
+
+
+  <div class="container">
+    
+  	
+    <section>
+      <div class="secondimg"> 
+        <center>
+        <img src="https://mattfarley.ca/img/hero-devices.svg"></div>  
+        </center>
+</div>
+<div class="jumbotron" id="about" >
+    
+  <h1 class="display-4" style="color:white; text-shadow: 3px 2px black;">Hello,there !</h1>
+  <h2 class="display-3" style="color:white;">let me introduce myself:)</h2>
+  
+  <p class="lead" style="color:white;">My name is Tanya Srivastava.</p>
+  <h1>🤗</h1>
+  <p style="color:white;">About Me 😎
+    I am a Computer Science Engineer and Full Stack Web Developer who has been playing around Web for the last 4-5 years. I ❤️ JavaScript but that doesn't hold me back from trying different things. One can always find me trying and learning about different things like Tech, Space, Science and much more.
+    
+    I love the idea of innovation and building new things which eventually led me to the journey of startups. I got into Y Combinator's Startup School where I learnt the ins and out of the startup. Now, I understand that it takes a lot more than just code to make a Great Product/s. 😉</p>
+    
+  <p style="color:white;">Something you want to know about me then, check the cards,down there!!</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+
+</div>
+</div>
+
+    </section>
+
+    <div class="row" height="400px" id="education">
+      <div class="col-lg-3 col sm-6">
+          <div class="cards">
+            <img src="https://img.money.com/2020/07/MBA.gif"  width="312px" height="500px">
+              <div class="container">
+              <h2>PGDM-ITSM</h2>
+              <h4>NMIMS</h4>
+                <h4>2020-2022</h4>
+                <h4>distinction</h4>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-lg-3 col sm-6">
+        <div class="cards">
+          <img src="data:image/png;base64,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" alt="Norther Lights" width="312px" height="500px">
+            <div class="container">
+                <a href="purrfectmatch.html"><H2>BCA</H2></a>
+                <h4>Govt. Girls College, Gurgaon</H4>
+                  <h4>2016-2019</H4>
+                    <h4>81%</H4>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col sm-6">
+        <div class="cards">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu70jUjR6J8RrKOoPKrkN4Pb946y_c5KDUlg&usqp=CAU" alt="IMAGES" style="width:100%">
+              <div class="container">
+               <a href="imagegallery.html"><H2>12th</H2></a>
+               <H4>Sidheshwar Sr. Sec. Public School</H4>
+               <h4>2016</h4>
+               <h4>87.7%</h4>
+              </div>
+        </div>
+     </div>
+
+     <div class="col-lg-3 col sm-6">
+     <div class="cards">
+      <img src="https://media0.giphy.com/media/jU8yHwHSAoHvepN65t/giphy.gif?cid=ecf05e4738e5266ce2a5a3f111b909ba910e954ef45fed2f&rid=giphy.gif">
+             
+       <div class="container">
+        <h2>10th</h2>
+        <H4>Sidheshwar Sr. Sec. Public School</H4>
+        <h4>2014</h4>
+        <h4>9.8 CGPA</h4>
+       </div>
+     </div>
+     </div>
+
+    </div>
+  </div>
+
+    
+    
+
+    
+
+
+
+      
+
+    
+<br><br>
+
+
+
+
+
+
+
+
+<h2 class="page-header" id="projects"><b><i>Some Of The Projects That I Worked On!!</i></b></h2>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#furrycat" >
+    <span class="glyphicon glyphicon-film" ></span> FURRY CAT<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="furrycat" class="collapse">
+
+	  <div class="movie_text" >
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1624798118458-fb59e82ca1ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8a2l0dHl8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-responsive img-thumbnail"> 
+		  <h2>furry cat!!Click on the button😊</h2>
+      <button type="button" class="btn btn-warning">click here</button>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1624798118458-fb59e82ca1ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8a2l0dHl8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="img-responsive img-thumbnail"> 
+		  
+        </div>
+      </div>
+        
+		  </div>
+  
+  </div>
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#the_lion_king" >
+    <span class="glyphicon glyphicon-film" ></span> The Lion King<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="the_lion_king" class="collapse">
+  	<div class="movie_text">
+       <img src="movie2.jpg" class="img-responsive img-thumbnail" >
+
+	   <h5 class="text-success text-capitalize">nice for one time 
+       <span class="glyphicon glyphicon-star" ></span>
+       <span class="glyphicon glyphicon-star" ></span>
+       <span class="glyphicon glyphicon-star" ></span>
+     </h5>
+    
+	   <p>I took my kids to watch the movie and they loved it. The story shows how a young lion prince, after the murder of his father, flees his kingdom only to learn the true meaning of responsibility and bravery. This movie is worth a watch for its gorgeous visuals and cinematography. The music was phenomenal. Beyoncé really brought Nala to live but the show stealers were Timon and Pumba. Kids would love it.</p>
+ 
+    </div>
+  </div>
+
+
+ 
+  <h2 class="page-header" id="books">LANGUAGE KNOWN:</h2>
+
+  <h4><i>FRONT END WEBSITE DEVELOPEMENT LANGUAGES--</i></h4>
+  <div id="skills">
+
+  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 book">
+    <img src="https://nisandij.com/wp-content/uploads/2021/12/HTML-Stands-for-min.gif" class="img-responsive">
+    <hr>
+    <h4>HTML-Hyper Text Markup Language</h4>
+   </div>
+  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 book">
+    <img src="https://lenadesign.org/wp-content/uploads/2019/12/untitled7-1.gif?w=580" class="img-responsive">
+    <hr>
+    <h4>CSS-Cascading Style Sheet</h4>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 book">
+    <img src="https://cdn.dribbble.com/users/1456170/screenshots/4004871/giphy__8_.gif" class="img-responsive">
+    <hr>
+    <h4>JS-Java Script</h4>
+    </div>
+  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 book">
+    <img src="https://raw.githubusercontent.com/Script-Kiddie-JKB/Script-Kiddie-JKB/main/Assets/bootstrap.gif" class="img-responsive">
+    <hr >
+    <h4>BootStrap</h4>
+  </div>
+</div>
+
+
+<div id="flip">click here to know about the working experience!!!</div>
+<div id="panel">
+  Whitehat jr
+</div>    
+<section id="contact">
+
+        <div class="contact_1" >
+
+           <a href="mailto:my@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+            </a> 
+
+           <a href="#"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a> 
+        </div>
+
+</section>
+
+  </div>
+  
+
+
+  </div>
+
+  <div>
+
+  </div>
+
+  <div class="contacts">
+    <div class="row">
+      <div class="col">
+        <h2><b>Want to contact Me?</b></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>I ❤️ to share ideas and read Feedbacks. Feel free to reach me. I check my inbox frequently 😎</h2>
+      </div>
+    </div>
+    <div class="row" height="15px">
+      <div class="col-lg-3">
+        <img src="https://zellusmarketing.com/wp-content/uploads/2021/02/Google-Gif.gif"  style="float:left">
+      </div>
+      <div class="col-lg-9">
+        <h2><b>Tanya Srivastava</b></h2>
+        <h2>srivastva.tanya1508@gmail.com</h2> <h2>srivastva.tanya1508@gmail.com</h2>
+        <h2>srivastva.tanya1508@gmail.com</h2> <h2>srivastva.tanya1508@gmail.com</h2>
+
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>Want to contact Me?</h2>
+      </div>
+    </div>
+      
+
+    </div>
+
+  </div>
+
+
+</body>
+</html>
